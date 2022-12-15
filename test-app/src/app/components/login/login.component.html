@@ -1,0 +1,23 @@
+<div class="d-big">
+    <div class="d-title">Giriş Yap</div>
+
+    <div class="d-picture"><img class="picture" src="./assets/picture/login.PNG"></div>
+
+    <div class="d-email">
+     <mat-form-field class="email">
+        <input matInput placeholder="Email" #newTodo>
+     </mat-form-field>
+    </div>
+
+    <div class="d-psw">
+     <mat-form-field class="psw">
+        <input matInput placeholder="Şifre" #newTodo>
+     </mat-form-field>
+    </div>
+
+    <div class="d-terms">Tüm <a class="terms" href="#">Hüküm ve Koşulları</a> Kabul Ediyorum.</div>
+
+    <div class="d-button">
+      <button class="button" mat-raised-button color="primary" type="submit" [routerLink]="['/home']">Giriş</button>
+   </div>
+</div>
